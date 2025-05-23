@@ -61,7 +61,10 @@ app.post("/chat", async (req, res) => {
       model: "gpt-4",
       messages,
     });
-    const aiReply = completion?.data?.choices?.[0]?.message?.content || "Tiada jawapan dari AI.";
+    const aiReply = completion?.data?.choices?.[0]?.message?.content 
+             || completion?.data?.choices?.[0]?.text 
+             || "Tiada jawapan dari AI.";
+
     res.json({ reply: aiReply });
 
   } catch (err) {
