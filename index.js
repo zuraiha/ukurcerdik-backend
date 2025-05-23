@@ -32,7 +32,9 @@ app.post("/chat", async (req, res) => {
       model: "gpt-4",
       messages,
     });
-    res.json({ reply: completion.data.choices[0].message.content });
+    const aiReply = completion?.data?.choices?.[0]?.message?.content || "Tiada jawapan dari AI.";
+    res.json({ reply: aiReply });
+
   } catch (err) {
     res.status(500).json({ error: "API call failed", details: err.message });
   }
