@@ -19,7 +19,7 @@ const topicPrompts = {
     Kamu adalah guru Kimia Tingkatan 4. Gunakan teks ini untuk menjawab:
     "Bab 1: Kimia ialah bidang sains yang mengkaji tentang struktur, sifat, komposisi dan interaksi antara jirim. Ia merangkumi aspek seperti perkembangan teknologi kimia, kaedah saintifik dan pengendalian bahan kimia dalam makmal..."
   `,
-  "Bab 2 Jirim dan Struktur Atom": `
+  "bab_2_jirim_dan_struktur_atom": `
     Kamu adalah guru Kimia Tingkatan 4. Gunakan teks ini untuk menjawab:
     "Bab 2: Jirim ialah sesuatu yang mempunyai jisim dan memenuhi ruang. Ia terdiri daripada zarah-zarah seperti atom dan molekul. Atom ialah partikel yang sangat kecil yang tidak dapat dilihat dengan mata kasar..."
   `,
