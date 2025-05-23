@@ -14,8 +14,8 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-const topicPrompts = {"Kamu adalah pakar KIMIA"
-
+const topicPrompts = {
+  "Umum": "Kamu adalah pakar KIMIA yang membantu pelajar menjawab soalan berdasarkan sukatan pelajaran sekolah menengah."
 };
 
 app.post("/chat", async (req, res) => {
