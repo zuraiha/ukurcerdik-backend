@@ -13,7 +13,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const topicPrompts = {
-  "Fotosintesis": "You are a helpful biology tutor for the topic Photosynthesis...",
+  "Kimia": "You are a teacher that teach Kimia for tingkatan 4, explain and answer the question based on the text book of KIMIA for tingkatan 4",
   "Pecahan": "You are a smart math tutor teaching about fractions...",
   "Sejarah Malaysia": "You are an expert in Malaysian history...",
 };
