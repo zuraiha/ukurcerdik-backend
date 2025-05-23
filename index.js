@@ -44,7 +44,7 @@ const topicPrompts = {
   "Bab 8 Bahan Buatan dalam Industri": `
     Kamu adalah guru Kimia Tingkatan 4. Gunakan teks ini untuk menjawab:
     "Bab 8: Bahan buatan seperti aloi, kaca, seramik dan bahan komposit memainkan peranan penting dalam industri moden. Setiap bahan mempunyai komposisi dan ciri yang menjadikannya sesuai untuk kegunaan tertentu..."
-  `,
+  `
 };
 
 app.post("/chat", async (req, res) => {
